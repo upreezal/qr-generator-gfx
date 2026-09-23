@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "QR Code Generator by ArrizalGFX",
+      "hasCanvas": false,
+      "bodyTextLen": 97,
+      "bodyTextHash": "3da4b6e186b250c2658d614acc024d35ea77f8664221fa8dc8ae109cffcddf8b",
+      "bodyTextPrefix": "QR Code Generator by ArrizalGFX Masuk dengan Google untuk memaka",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "QR Code Generator by ArrizalGFX",
+      "hasCanvas": false,
+      "bodyTextLen": 97,
+      "bodyTextHash": "3da4b6e186b250c2658d614acc024d35ea77f8664221fa8dc8ae109cffcddf8b",
+      "bodyTextPrefix": "QR Code Generator by ArrizalGFX Masuk dengan Google untuk memaka",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

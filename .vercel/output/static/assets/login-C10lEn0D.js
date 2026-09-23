@@ -1,0 +1,1 @@
+import{a as e,i as t}from"./index-BrOK2zix.js";import{n}from"./use-current-user-MXC-uZpN.js";import{n as r}from"./login-screen-I2bsjTSu.js";var i=e();function a(){let{user:e}=n();return e?(0,i.jsx)(t,{to:`/`}):(0,i.jsx)(r,{})}export{a as component};

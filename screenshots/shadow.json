@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/x/agx-k7n4-m2q9-x8v1",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Not found",
+      "hasCanvas": false,
+      "bodyTextLen": 180,
+      "bodyTextHash": "ee8e2667ded41b2904bdd5c9b06ad6f406ce84c40b1258efc7f7b1407d3d8eee",
+      "bodyTextPrefix": "Shadow statistik Hanya lewat tautan ini CSV KLIK WEBSITE — HARI ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/shadow.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Not found",
+      "hasCanvas": false,
+      "bodyTextLen": 215,
+      "bodyTextHash": "2b6f62d854b1f07c67aa78dab2db4b6e374daf3f24557363e33d48fb0d6fe8e8",
+      "bodyTextPrefix": "Shadow statistik Hanya lewat tautan ini CSV KLIK WEBSITE 1 HARI ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/shadow-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/shadow.json"
+}
