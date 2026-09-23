@@ -1,7 +1,7 @@
 import { i as TSS_SERVER_FUNCTION, r as createServerFn } from "./ssr.mjs";
-import { t as authMiddleware } from "./middleware-CtmxXNxn.mjs";
+import { t as authMiddleware } from "./middleware-C8XS-bXn.mjs";
 import { t as isShadowToken } from "./owner-B9VeZ3H_.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/visits-QluDvSAQ.js
+//#region node_modules/.nitro/vite/services/ssr/assets/visits-DwpdWpan.js
 var createServerRpc = (serverFnMeta, splitImportFn) => {
 	const url = "/_serverFn/" + serverFnMeta.id;
 	return Object.assign(splitImportFn, {

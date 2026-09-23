@@ -1,6 +1,6 @@
 import { a as getServerFnById, i as TSS_SERVER_FUNCTION, r as createServerFn } from "./ssr.mjs";
-import { t as authMiddleware } from "./middleware-CtmxXNxn.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/visits-ypoHHTCp.js
+import { t as authMiddleware } from "./middleware-C8XS-bXn.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/visits-DoTPm6mC.js
 var createSsrRpc = (functionId) => {
 	const url = "/_serverFn/" + functionId;
 	const serverFnMeta = { id: functionId };

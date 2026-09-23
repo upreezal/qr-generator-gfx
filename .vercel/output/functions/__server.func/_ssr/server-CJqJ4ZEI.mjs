@@ -11,7 +11,7 @@ import { a as utf8ToBytes, i as managedNonce, n as bytesToHex, r as hexToBytes, 
 import { n as string$1, t as boolean$1 } from "../_libs/zod.mjs";
 import { t as Pool } from "../_libs/pg.mjs";
 import { randomBytes } from "node:crypto";
-//#region node_modules/.nitro/vite/services/ssr/assets/server-Dd5C3fnE.js
+//#region node_modules/.nitro/vite/services/ssr/assets/server-CJqJ4ZEI.js
 function tryDecode$1(str) {
 	if (str.indexOf("%") === -1) return str;
 	try {
@@ -8895,26 +8895,38 @@ var grokClientId = env$1("GROK_AUTH_CLIENT_ID") ?? "grok_preview";
 var grokClientSecret = env$1("GROK_AUTH_CLIENT_SECRET") ?? "8bcdb7fc5a33874ad933ca568918d5790388a0795e44c4d1dea691f801b17ec5";
 /** True when federated sign-in is active (real auth is enforced). */
 var authConfigured = !authDisabled && Boolean(grokClientId && grokClientSecret);
-var explicitBaseURL = env$1("BETTER_AUTH_URL");
+var explicitBaseURL = env$1("BETTER_AUTH_URL") ?? (env$1("NETLIFY") ? env$1("URL") : void 0);
 var previewAllowedHosts = [...PREVIEW_ALLOWED_HOSTS];
 var LOCAL_DEV_ORIGINS = [
 	"http://localhost:8080",
 	"http://127.0.0.1:8080",
 	"http://[::1]:8080"
 ];
+var netlifySiteOrigins = [
+	env$1("URL"),
+	env$1("DEPLOY_PRIME_URL"),
+	env$1("DEPLOY_URL")
+].filter((v) => Boolean(v));
 var baseURL = explicitBaseURL ?? {
 	allowedHosts: [
 		...previewAllowedHosts,
 		"localhost",
 		"127.0.0.1",
-		"[::1]"
+		"[::1]",
+		"*.netlify.app"
 	],
 	protocol: "auto",
 	fallback: "http://localhost:8080"
 };
-var trustedOrigins = explicitBaseURL ? [explicitBaseURL, ...LOCAL_DEV_ORIGINS] : [
+var trustedOrigins = explicitBaseURL ? Array.from(/* @__PURE__ */ new Set([
+	explicitBaseURL,
+	...netlifySiteOrigins,
+	...LOCAL_DEV_ORIGINS
+])) : [
 	...previewAllowedHosts,
+	"*.netlify.app",
 	...previewAllowedHosts.flatMap((host) => [`https://${host}`, `http://${host}`]),
+	"https://*.netlify.app",
 	...LOCAL_DEV_ORIGINS
 ];
 var databaseUrl = env$1("DATABASE_URL");

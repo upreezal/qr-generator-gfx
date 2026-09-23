@@ -2,8 +2,8 @@ import { o as __toESM } from "../_runtime.mjs";
 import { o as require_jsx_runtime, s as require_react } from "../_libs/@radix-ui/react-collection+[...].mjs";
 import { r as signIn, t as authClient } from "./client-CVqXY6bk.mjs";
 import { n as cn, t as Button } from "./button-DrQLw21j.mjs";
-import { t as GROK_PROVIDERS } from "./server-Dd5C3fnE.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/login-screen-QyTzvYC2.js
+import { t as GROK_PROVIDERS } from "./server-CJqJ4ZEI.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/login-screen-CLOmUgEb.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function BrandMark({ className }) {
@@ -150,7 +150,7 @@ function LoginScreen() {
 	const [error, setError] = (0, import_react.useState)(null);
 	(0, import_react.useEffect)(() => {
 		const idle = window.setTimeout(() => {
-			import("./studio-BgPnINBp.mjs");
+			import("./studio-D1KRDUWt.mjs");
 		}, 1200);
 		return () => window.clearTimeout(idle);
 	}, []);

@@ -3,9 +3,9 @@ import { t as __exportAll } from "./rolldown-runtime-D7D4PA-g.mjs";
 import { L as string, N as number, P as object, R as union, j as literal } from "../_libs/@better-auth/core+[...].mjs";
 import { o as require_jsx_runtime, s as require_react } from "../_libs/@radix-ui/react-collection+[...].mjs";
 import { f as createRouter, g as createRootRoute, h as createFileRoute, l as Scripts, m as lazyRouteComponent, p as Outlet, u as HeadContent, v as useRouter } from "../_libs/@tanstack/react-router+[...].mjs";
-import { n as auth } from "./server-Dd5C3fnE.mjs";
+import { n as auth } from "./server-CJqJ4ZEI.mjs";
 import { i as TriangleAlert } from "../_libs/lucide-react.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-DMVXq-BO.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-B8rvsagd.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var FALLBACK_MESSAGE = "An unexpected error occurred. Try reloading the page.";
@@ -59,7 +59,7 @@ function HitBeacon() {
 			} catch {
 				return;
 			}
-			import("./visits-ypoHHTCp.mjs").then((mod) => mod.recordHit()).catch(() => {});
+			import("./visits-DoTPm6mC.mjs").then((mod) => mod.recordHit()).catch(() => {});
 		}, 2500);
 		return () => window.clearTimeout(timer);
 	}, []);
@@ -381,11 +381,11 @@ function RootDocument() {
 		] })]
 	});
 }
-var $$splitComponentImporter$2 = () => import("./routes-BP6V68uO.mjs");
+var $$splitComponentImporter$2 = () => import("./routes-BiIzT5Zm.mjs");
 var Route$3 = createFileRoute("/")({ component: lazyRouteComponent($$splitComponentImporter$2, "component") });
-var $$splitComponentImporter$1 = () => import("./login-CrHGhmR6.mjs");
+var $$splitComponentImporter$1 = () => import("./login-rELUYZaj.mjs");
 var Route$2 = createFileRoute("/login")({ component: lazyRouteComponent($$splitComponentImporter$1, "component") });
-var $$splitComponentImporter = () => import("./x._token-HsKe0v8S.mjs");
+var $$splitComponentImporter = () => import("./x._token-CL-Ou1tN.mjs");
 var Route$1 = createFileRoute("/x/$token")({
 	head: () => ({ meta: [{ title: "Not found" }, {
 		name: "robots",
